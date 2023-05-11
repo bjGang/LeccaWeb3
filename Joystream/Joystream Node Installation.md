@@ -92,41 +92,4 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $
 sed -i "s/snapshot-interval *=.*/snapshot-interval = 0/g" $HOME/.nibid/config/app.toml
 ```
 
-## Set minimum gas price and timeout commit
-```
-sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0001unibi\"/" $HOME/.nibid/config/app.toml
-```
-
-## Enable prometheus
-```
-sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.nibid/config/config.toml
-```
-
-## Reset chain data
-```
-nibid tendermint unsafe-reset-all
-```
-
-## Create service
-```
-sudo tee /etc/systemd/system/nibid.service > /dev/null << EOF
-[Unit]
-Description=Nibiru Node
-After=network-online.target
-[Service]
-User=$USER
-ExecStart=$(which nibid) start
-Restart=on-failure
-RestartSec=10
-LimitNOFILE=10000
-[Install]
-WantedBy=multi-user.target
-EOF
-```
-
-## Register and start service
-```
-sudo systemctl daemon-reload
-sudo systemctl enable nibid
-sudo systemctl restart nibid && sudo journalctl -u nibid -f -o cat
-```
+https://joystream.gitbook.io/testnet-workspace/system/validation
