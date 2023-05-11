@@ -1,8 +1,9 @@
-<p align="center">
-  <img height="100" height="auto" src="https://user-images.githubusercontent.com/50621007/199199328-32dcdc7c-db06-4519-827f-6c6af09228f9.png">
-</p>
-
-# Nibiru Testnet — nibiru-itn-1
+# About Lecca
+```
+LECCA is a crypto-native investment firm that invests in the Web3, digital assets and blockchain companies.
+We provide guidance and support to customer-obsessed business.
+We spearhead community-centered initiatives for mass adoption of blockchain and cryto
+```
 
 Official documentation:
 >- [Validator setup instructions](https://docs.nibiru.fi/run-nodes/testnet/)
@@ -24,6 +25,10 @@ Explorer:
 ```
 wget https://raw.githubusercontent.com/freshe4qa/nibiru/main/nibiru2.sh && chmod +x nibiru2.sh && ./nibiru2.sh
 ```
+
+<p align="center">
+  <img height="100" height="auto" src="https://user-images.githubusercontent.com/50621007/199199328-32dcdc7c-db06-4519-827f-6c6af09228f9.png">
+</p>
 
 ## Post installation
 
@@ -53,38 +58,6 @@ To get current list of wallets
 nibid keys list
 ```
 
-## Usefull commands
-### Service management
-Check logs
-```
-journalctl -fu nibid -o cat
-```
-
-Start service
-```
-sudo systemctl start nibid
-```
-
-Stop service
-```
-sudo systemctl stop nibid
-```
-
-Restart service
-```
-sudo systemctl restart nibid
-```
-
-### Node info
-Synchronization info
-```
-nibid status 2>&1 | jq .SyncInfo
-```
-
-Validator info
-```
-nibid status 2>&1 | jq .ValidatorInfo
-```
 
 Node info
 ```
