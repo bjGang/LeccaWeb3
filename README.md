@@ -10,6 +10,4 @@ I would like to share my portfolio as a validator in various projects, not just 
 
 ## Portfolios
 
-<p align="center">
-  <img height="100" height="auto" src="https://user-images.githubusercontent.com/50621007/199199328-32dcdc7c-db06-4519-827f-6c6af09228f9.png">
-</p>
+![Alt Text](Joystream.png) ![Alt Text](Nibiru.png)
