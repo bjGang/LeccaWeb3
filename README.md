@@ -12,9 +12,6 @@ I would like to share my portfolio as a validator in various projects, not just 
 
 <p align="center">
   <img height="100" height="auto" src="https://github.com/bjGang/LeccaWeb3/blob/master/Joystream.png">
-</p>
-
-<p align="center">
   <img height="100" height="auto" src="https://github.com/bjGang/LeccaWeb3/blob/master/Nibiru.png">
 </p>
 
