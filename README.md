@@ -10,6 +10,10 @@ I would like to share my portfolio as a validator in various projects, not just 
 
 ## Portfolios
 
+<p align="center">
+  <img height="100" height="auto" src="Joystream.jpg">
+</p>
+
 ![Alt Text](Joystream.jpg)
 <img src="Joystream.jpg" alt="Alt Text" width="300" height="200">
 
