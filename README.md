@@ -10,4 +10,5 @@ I would like to share my portfolio as a validator in various projects, not just 
 
 ## Portfolios
 
-![Alt Text](Joystream.png) ![Alt Text](Nibiru.png)
+<img src="Joystream.jpg" alt="Alt Text" width="300" height="200">
+
