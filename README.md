@@ -8,11 +8,5 @@ We spearhead community-centered initiatives for mass adoption of blockchain and 
 
 I would like to share my portfolio as a validator in various projects, not just as a simple investor, and record and share my expertise and knowledge.
 
-## Portfolios
-
-<p align="center">
-  <img height="100" height="auto" src="https://github.com/bjGang/LeccaWeb3/blob/master/Joystream.png"> &nbsp;&nbsp;
-  <img height="100" height="auto" src="https://github.com/bjGang/LeccaWeb3/blob/master/Nibiru.png">
-</p>
 
 
