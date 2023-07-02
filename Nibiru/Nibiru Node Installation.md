@@ -95,11 +95,6 @@ sed -i "s/snapshot-interval *=.*/snapshot-interval = 0/g" $HOME/.nibid/config/ap
 sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0001unibi\"/" $HOME/.nibid/config/app.toml
 ```
 
-## Enable prometheus
-```
-sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.nibid/config/config.toml
-```
-
 ## Reset chain data
 ```
 nibid tendermint unsafe-reset-all
